@@ -1,0 +1,774 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./bundle.css" />
+    <title>Responsive Portfolio Website</title>
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav">
+      <div class="nav_left">
+        <img class="nav_photo" src="/images/Jenny3.png" alt="">
+        <a href="#" class="nav_logo">JENNY NGI</a>
+      </div>
+
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list grid">
+          <li class="nav_item">
+            <a href="#home" class="nav_link home active">
+              <i class="fa fa-home nav_icon" aria-hidden="true"></i>Home
+            </a>
+          </li>
+          
+          <li class="nav_item">
+            <a href="#about" class="nav_link about">
+              <i class="fa fa-user nav_icon" aria-hidden="true"></i>About
+            </a>
+          </li>
+            
+          <li class="nav_item">
+            <a href="#skills" class="nav_link skills">
+              <i class="fa fa-file-code-o nav_icon" aria-hidden="true"></i>Skills
+            </a>
+          </li>
+
+          <li class="nav_item">
+            <a href="#qualification" class="nav_link qualification">
+              <i class="fa fa-briefcase nav_icon" aria-hidden="true"></i>Qualification
+            </a>
+          </li>
+
+          <li class="nav_item">
+            <a href="#portfolio" class="nav_link portfolio">
+              <i class="fa fa-file-image-o nav_icon" aria-hidden="true"></i>Portfolio
+            </a>
+          </li>
+
+          <li class="nav_item">
+            <a href="#contact" class="nav_link contact">
+              <i class="fa fa-commenting-o nav_icon" aria-hidden="true"></i>Contactme
+            </a>
+          </li>
+        </ul>  
+
+        <i class="fa fa-times nav_close" id="nav-close" aria-hidden="true"></i>
+
+      </div>
+      
+      <div class="nav_btns">
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== Sidebar ====================-->
+  <div class="sidebar">
+    <a href="https://www.linkedin.com/in/manchingngijenny" target="_blank" class="sidebar_icon">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </a>
+
+    <a href="https://github.com/JennieNgi" target="_blank" class="sidebar_icon">
+      <i class="fa fa-github" aria-hidden="true"></i>
+    </a>
+
+    <a href="mailto:manchingngi0219@gmail.com"  target="_blank" class="sidebar_icon">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <!--==================== Home ====================-->
+
+  <section class="home" id="home">
+    <div class="container home_container">
+
+      <div class="home_left ">
+        <h1 class="section_title">Welcome! I'm Jenny Ngi</h1>
+
+        <p class="section_description">I’m an asipiring front-end developer from Canada, with diverse knowledge in web design and producing quality work.</p>
+
+        <div class="home_contact">
+          <a href="#contact" class="button">
+          Contact Me<i class="fa fa-commenting-o button_icon" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="home_right reverse">
+          <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                <image class="home_blob-img" y='' href="/images/Jenny1.png"/>
+            </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+<!--==================== About ====================-->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about_left ">
+      <div class="about_content">
+        <table class="table">
+          <thead>
+              <tr>
+                  <th>Personal Details</th>    
+              </tr>
+          </thead>
+
+          <tbody>
+              <tr>
+                  <td>Phone: </td>
+                  <td class="table_right">1-902-209-1928</td>
+              </tr>
+              <tr>
+                  <td>Location:</td>
+                  <td class="table_right">Nova Scotia, Canada</td> 
+              </tr>
+              <tr>
+                  <td>Hobbies:</td>
+                  <td class="table_right">Gym, Food, Cooking, Travel, Horror Movies, Anime</td> 
+              </tr>
+          </tbody>
+        </table>
+      </div>
+        <!-- <div class="qualification_line"></div> -->
+      <div class="about_content">
+        <table class="table">
+          <thead>
+              <tr>
+                  <th>Languages</th>
+                  
+              </tr>
+          </thead>
+
+          <tbody>
+              <tr>
+                  <td >English: </td>
+                  <td class="table_right">Proficient</td>
+              </tr>
+              <tr>
+                  <td >Cantonese:</td>
+                  <td class="table_right">Native</td>
+                  
+              </tr>
+              <tr>
+                  <td >Madarin:</td>
+                  <td class="table_right">Proficient</td>
+                  
+              </tr>
+          </tbody>
+        </table>
+        
+      </div>
+
+      
+    </div>
+
+
+    <div class="about_right">
+      <h1 class="section_title">About Me</h1>
+
+      <div class="section_description"> 
+        <blockquote>
+          <p>"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do." - Steve Jobs</p>
+        </blockquote>
+
+        <div>
+        I’m obsessed with creating things in a logical way and even obsessed with making things better. That's why I love coding.<br><br>
+
+        As a <strong>tech enthusiast</strong> seeking for new challenges, I came to one of the best countries, Canada, to pursue further study and my ideal job. 
+        I am currently a first-year student attending a program of <strong>Diploma in IT Web Programming</strong> at NSCC and seeking front-end web developer co-op/intern opportunities in any areas of Canada to further gain practical experience and contribute the real tech world!
+        <br><br>
+        I would love to connect with you! Reach me at <a class="email_link" href="mailto:manchingngi0219@gmail.com"  target="_blank"><span>manchingngi0219@gmail.com</span></a>.</div>
+
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="photo">
+  <div class="photo_box">
+    <span style="--i:1;">
+      <img src="/images/Jenny2.JPG" alt="" class="card_image">
+    </span>
+    <span style="--i:2;">
+      <img src="/images/Jenny4.jfif" alt="" class="card_image">
+    </span>
+    <span style="--i:3;">
+      <img src="/images/Jenny5.jpeg" alt="" class="card_image">
+    </span>
+    <span style="--i:4;">
+      <img src="/images/Jenny6.jpg" alt="" class="card_image">
+    </span>
+    <span style="--i:5;">
+      <img src="/images/Jenny7.PNG" alt="" class="card_image">
+    </span>
+    <span style="--i:6;">
+      <img src="/images/Jenny8.JPG" alt="" class="card_image">
+    </span>
+    <span style="--i:7;">
+      <img src="/images/Jenny9.JPG" alt="" class="card_image">
+    </span>
+    <span style="--i:8;">
+      <img src="/images/Jenny10.JPG" alt="" class="card_image">
+    </span>
+
+  </div>
+  
+</section>
+
+
+<!--==================== Skills ====================-->    
+<section class="skills" id="skills">
+  <div class="container skills_container ">
+    <div class="skills_left">
+        <h1 class="section_title">Skills</h1>
+        <p class="section_description">Programming languages, databases, platforms, design techniques, and web server technologies through different projects</p>
+    </div>
+
+    <div class="skills_right">
+      <!--==================== SKILLS 1====================-->
+      <div class="skills_content skills_close" id="skills_frontend">
+        <div class="skills_header">
+          <i class="fa fa-code skills_icon" aria-hidden="true"></i>
+
+          <div>
+            <h1 class="skills_title">Frontend</h1>
+            
+          </div>
+
+          <i class="fa fa-angle-down skills_arrow" id="frontend_arrow" aria-hidden="true"></i>
+        </div>
+
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">HTML</h3>
+              <span class="skills_number">90%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_html"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">CSS</h3>
+              <span class="skills_number">80%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_css"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">JavaScript</h3>
+              <span class="skills_number">60%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_javascript"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">Webpack / Node.JS</h3>
+              <span class="skills_number">20%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_webpack"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--==================== SKILLS 2====================-->
+      <div class="skills_content skills_close" id="skills_backend">
+        <div class="skills_header">
+          <i class="fa fa-server skills_icon" aria-hidden="true"></i>
+
+          <div>
+            <h1 class="skills_title">Backend</h1>
+          </div>
+
+          <i class="fa fa-angle-down skills_arrow" id="backend_arrow" aria-hidden="true"></i>
+        </div>
+
+        <div class="skills_list grid">
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">Node.JS</h3>
+              <span class="skills_number">20%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_nodejs"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">Python</h3>
+              <span class="skills_number">60%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_python"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">Java</h3>
+              <span class="skills_number">20%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_java"></span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!--==================== SKILLS 3====================-->
+      <div class="skills_content skills_close" id="skills_other">
+        <div class="skills_header">
+          <i class="fa fa-object-group skills_icon" aria-hidden="true"></i>
+
+          <div>
+            <h1 class="skills_title">Other</h1>
+            
+          </div>
+
+          <i class="fa fa-angle-down skills_arrow" id="other_arrow" aria-hidden="true"></i>
+        </div>
+
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">SQL / Oracle</h3>
+              <span class="skills_number">70%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_sql"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">IIS / Apache</h3>
+              <span class="skills_number">60%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_IIS"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">Agile / UML</h3>
+              <span class="skills_number">40%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_uml"></span>
+            </div>
+          </div>
+
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--==================== Qualification ====================-->
+<section class="qualification" id="qualification">
+  <div class="container">
+
+    <div class="qualification_left">
+      <div>
+        <!-- -----------------------content 1------------------------- -->
+        <div class="qualification_content qualification_active" data-content id="education">
+          <!-- -----------------------qualification 1------------------------- -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Diploma in IT Web Programming</h3>
+              <div class="qualification_subtitle">Nova Scotia Communicty College, Canada</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>2021-Now
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+
+          <!-- -----------------------qualification 2------------------------- -->
+          <div class="qualification_data">
+            <div></div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Bachelor Degree in Social Sciences</h3>
+              <div class="qualification_subtitle">Lingnan University, Kong Kong</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>2011-2014
+              </div>
+            </div>
+
+          </div>
+
+          <!-- -----------------------qualification 3------------------------- -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Secondary 6-7</h3>
+              <div class="qualification_subtitle">Ching Chung Hau Po Woon Primary School, Kong Kong</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>2009-2011
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+
+          <!-- -----------------------qualification 4------------------------- -->
+          <div class="qualification_data">
+            <div></div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <!-- <span class="qualification_line"></span> -->
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Secondary 1-5</h3>
+              <div class="qualification_subtitle">Shun Tak Fraternal Association Leung Kau Kui College, Kong Kong</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>2005-2009
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- -----------------------content 2------------------------- -->
+        <div class="qualification_content" data-content id="work">
+          <!-- -----------------------qualification 1------------------------- -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Resident Assistant</h3>
+              <div class="qualification_subtitle">Nova Scotia Communicty College, Canada</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>Sep 2021-Now
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+
+          <!-- -----------------------qualification 2------------------------- -->
+          <div class="qualification_data">
+            <div></div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Senior Property Officer</h3>
+              <div class="qualification_subtitle">Jones Lang Lasalle Management Services Limited, Hong Kong</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>Jul 2019-Jul 2021
+              </div>
+            </div>
+
+          </div>
+
+          <!-- -----------------------qualification 3------------------------- -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Secretary</h3>
+              <div class="qualification_subtitle">Jones Lang Lasalle Limited, Hong Kong</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>Mar 2016-Jun 2019
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+
+          <div class="qualification_data">
+            <div></div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <!-- <span class="qualification_line"></span> -->
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Junior Secretary</h3>
+              <div class="qualification_subtitle">Jones Lang Lasalle Management Services Limited, Hong Kong</div>
+              <div class="qualification_calender">
+                <i class="fa fa-calendar" aria-hidden="true"></i>Apr 2014-Feb 2016
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="qualification_right">
+      <h1 class="section_title">Qualification</h1>
+
+      <p class="section_description"> Previously, I was born and raised in Hong Kong and had more than 6 years experience in property management field. <br><br> From my previuos experience, I built up skills of leadership, customer service, communication, problem-solving, analytical and critical thinking.  </p>
+
+      <div class="qualification_tabs section_description">
+        <div class="qualification_button qualificatio_active" data-target='#education'>
+          <i class="fa fa-graduation-cap qualification_icon" aria-hidden="true"></i>Education
+        </div>
+        <div class="qualification_button" data-target='#work'>
+          <i class="fa fa-briefcase qualification_icon" aria-hidden="true"></i>Work
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--==================== Portfolio ====================-->
+<section class="portfolio" id="portfolio">
+  <div class="portfolio_container ">
+
+    <div class="portfolio_up">
+      <h1 class="section_title">Personal Portfolio</h1>
+
+      <p class="section_description">Check these fun projects out! Flip the card to see the details...
+      </p>
+    </div>
+
+    <div class="portfolio_bottom">
+      <div class="card_container">
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/images/Picture1.png" alt="" class="card_image">
+            </div>
+            <div class="flip-card-back">
+              <h1>NASA GALLERY</h1>
+              <p>An gallery website displaying NASA images made by HTML, CSS, JavaScript, using NASA API.</p>
+              <div class="button portfolio_button">
+                <a href="https://jenniengi.github.io/shopifyinternchallenge/" target="_blank">Display</a>
+                <a href="https://github.com/JennieNgi/shopifyinternchallenge" target="_blank">Code Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/images/Picture4.png" alt="" class="card_image">
+            </div>
+            <div class="flip-card-back">
+              <h1>Number Guessing Game</h1>
+              <p>An interactive guessing game made by Python, which will ask the user to guess a number between 1 and 100.</p>
+              <div class="button portfolio_button">
+                <a href="https://github.com/JennieNgi/numberguessinggame" target="_blank">Code Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/images/Picture6.png" alt="" class="card_image">
+            </div>
+            <div class="flip-card-back">
+              <h1>Pig Game</h1>
+              <p>An interactive game made by HTML, CSS, JavaScript. There will be two users rolling the dice and a number will be added tp their mark. The fastest the user who reach 100 is the winner.</p>
+              <div class="button portfolio_button">
+                <a href="https://jenniengi.github.io/piggame/" target="_blank">Display</a>
+                <a href="https://github.com/JennieNgi/piggame" target="_blank">Code Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/images/Picture3.png" alt="" class="card_image">
+            </div>
+            <div class="flip-card-back">
+              <h1>Story Adventure</h1>
+              <p>An interactive story game made by Python, which will ask the user to make choices at different point based the plot in a csv file.</p>
+              <div class="button portfolio_button">
+                <a href="https://github.com/JennieNgi/storyadventure" target="_blank">Code Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/images/Picture5.png" alt="" class="card_image">
+            </div>
+            <div class="flip-card-back">
+              <h1>Guess My Number</h1>
+              <p>An interactive guessing game made by HTML, CSS, JavaScript, which will ask the user to guess a number between 1 and 20.</p>
+              <div class="button portfolio_button">
+                <a href="https://jenniengi.github.io/numberguessinggameweb/" target="_blank">Display</a>
+                <a href="https://github.com/JennieNgi/numberguessinggameweb" target="_blank">Code Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/images/Picture2.png" alt="" class="card_image">
+            </div>
+            <div class="flip-card-back">
+              <h1>Clone BBC Website</h1>
+              <p>An clone website made by HTML,CSS.</p>
+                <div class="button portfolio_button">
+                  <a href="https://jenniengi.github.io/clonebbc/" target="_blank">Display</a>
+                  <a href="https://github.com/JennieNgi/clonebbccode" target="_blank">Code Link</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- <div class="scene scene--card">
+          <div class="card" id="card-2">
+            <div class="card__face card__face--front"><img src="/images/Picture2.png" alt="" class="card_image"></div>
+            <div class="card__face card__face--back">
+              <h1>Clone BBC Website</h1>
+              <p>An clone website made by HTML,CSS.</p>
+                <div class="button portfolio_button">
+                  <a href="https://jenniengi.github.io/clonebbc/" target="_blank">Display</a>
+                  <a href="https://github.com/JennieNgi/clonebbccode" target="_blank">Code Link</a>
+                </div>
+            </div>
+          </div>
+        </div> -->
+  
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<!--==================== Contact ====================-->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact_left">
+      <form action="mailto:manchingngi0219@gmail.com" method="post" enctype="text/plain" class="contact_form">
+        <p class="contact_title">Name:</p><input type="text" name="Name" class="contact_input">
+        <p class="contact_title">Email:</p><input type="text" name="Email" class="contact_input">
+        <p class="contact_title">Phone:</p><input type="text" name="Phone" class="contact_input">
+        <p class="contact_title">Company Name:</p><input type="text" name="Company" class="contact_input">
+        <p class="contact_title">Message:</p><textarea cols="0" rows="7" name="Message" class="contact_input"></textarea>
+
+        <input type="submit" name="submit" value="Send Message" class="button">
+      </form>
+    </div>
+
+      <div class="contact_right">
+        <h1 class="section_title">Contact Me</h1>
+
+        <p class="section_description">Ask me anything or let me know an idea you'll like to try with me and I'll get back to you ASAP!</p>
+
+        <div class="contact_info">
+          <div class="contact_information">
+            <i class="fa fa-phone contact_icon" aria-hidden="true"></i>
+
+            <div>
+              <h3 class="contact_title">Call Me</h3>
+              <span class="contact_subtitle">902-208-1928</span>
+            </div>
+          </div>
+
+          <div class="contact_information">
+            <i class="fa fa-envelope-open-o contact_icon" aria-hidden="true"></i>
+
+            <div>
+              <h3 class="contact_title">Email</h3>
+              <a class="email_link" href="mailto:manchingngi0219@gmail.com"  target="_blank" class="contact_subtitle">manchingngi0219@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact_information">
+            <i class="fa fa-map-marker contact_icon" aria-hidden="true"></i>
+
+            <div>
+              <h3 class="contact_title">My Location</h3>
+              <span class="contact_subtitle">Truro, Nova Scotia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+  </div>
+</section>
+
+<footer class="footer">
+<div class="footer_credit">
+    <p>Website created by Jenny Ngi</p> 
+</div>
+</footer>
+
+<a href="#" class="topBtn" title="Go to top">Top</a>
+
+
+<script src="./bundle.js"></script>   
+
+
+
+</body>
+
+</html>
