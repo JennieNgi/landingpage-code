@@ -21,38 +21,23 @@ if(navClose){
 
 
 /*==================== SKILLS ====================*/
-const skillsFrontend = document.getElementById('skills_frontend');
-const skillsBackend = document.getElementById('skills_backend');
-const skillsOther = document.getElementById('skills_other');
-const frontendArrow = document.getElementById('frontend_arrow');
-const backendArrow = document.getElementById('backend_arrow');
-const otherArrow = document.getElementById('other_arrow');
+const skillsArrowList = document.querySelectorAll(".skills_arrow");
 
-if(frontendArrow){
-  frontendArrow.addEventListener('click', () => {
-      skillsFrontend.classList.add('skills_open');
-      skillsBackend.classList.remove('skills_open'); 
-      skillsOther.classList.remove('skills_open'); 
-  });
+
+function onClick(e){
+  if (e.target.parentNode.nextSibling.nextSibling.style.display !== "block"){
+    e.target.parentNode.nextSibling.nextSibling.style.display = "block";
+    e.target.style.transform = "rotate(-180deg)";
+  }else{
+    e.target.parentNode.nextSibling.nextSibling.style.display = "none";
+    e.target.style.transform = "rotate(360deg)";
+  }
 }
 
-
-if(backendArrow){
-  backendArrow.addEventListener('click', () => {
-    skillsBackend.classList.add('skills_open');
-    skillsFrontend.classList.remove('skills_open');
-    skillsOther.classList.remove('skills_open');
-  });
+for (let arrow of skillsArrowList){
+  arrow.addEventListener('click', onClick);
 }
 
-if(otherArrow){
-  otherArrow.addEventListener('click', () => {
-    skillsOther.classList.add('skills_open');
-    skillsBackend.classList.remove('skills_open');
-    skillsFrontend.classList.remove('skills_open');
-  });
-}
-      
       
 /*==================== QUALIFICATION ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
