@@ -496,7 +496,6 @@ section:nth-child(even){
 
 .skills_list{
     height: 0;
-    // overflow: hidden;
     display: none;
     height: max-content;
 }
@@ -671,6 +670,7 @@ section:nth-child(even){
     color: #fff;
     display: flex;
     justify-content: space-between;
+    margin-bottom: .5rem;
 } 
 
 .portfolio_button a:hover{
