@@ -9,7 +9,6 @@
 ## Code Explaination
 - The use of gird and flexbox is demonstrated thru the layout of the page
 - Document Object Model is implemented
-- If else statement is used
-- While loop is used
+- If else statement, loops, eventlistener is used
 
 ## Credit/Acknowledgment
